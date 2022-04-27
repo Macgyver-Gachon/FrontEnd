@@ -1,0 +1,46 @@
+.login-check {
+  font-size: 15px;
+  padding: 10px 40px 10px 40px;
+  margin: 10px 0 20px 0;
+  border: none;
+  width: 300px;
+  color: #fff;
+  background-color: #8c9eff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-check:hover {
+  color: #fff;
+  background-color: #5870cb;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#login form {
+  margin-bottom: 150px;
+}
+
+.login-back {
+  border: none;
+  padding: 5px 30px 5px 30px;
+  margin: 0px 0 20px 0;
+  width: 100px;
+  font-size: 14px;
+  background-color: #c0cfff;
+  text-decoration: none;
+}
+
+.login-back:hover {
+  cursor: pointer;
+  background-color: #5870cb;
+  color: white;
+  transition: 0.3s;
+}
+
+.login-text {
+  display: block;
+  opacity: 60%;
+  font-size: 12px;
+  margin-bottom: 15px;
+}

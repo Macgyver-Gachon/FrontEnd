@@ -1,0 +1,91 @@
+#idFind-block {
+  margin: 50px auto 0 auto;
+  align-items: center;
+  border: none;
+  padding: 60px;
+  width: 600px;
+  height: 100%;
+  text-align: center;
+}
+
+#idFind-block div {
+  margin: 10px 0;
+}
+
+.idFind-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+
+.idFind-text {
+  text-align: left;
+}
+
+.idFind-text .name {
+  margin-right: 50px;
+}
+
+.idFind-text .name2 {
+  margin-right: 20px;
+}
+
+.idFind-pwd {
+  display: inline;
+}
+
+.name-block {
+  padding: 5px;
+  width: 170px;
+  border: 3px solid #babdbe;
+  display: inline-block;
+}
+
+.pwd-block {
+  display: inline;
+  font-size: 15px;
+  padding: 5px;
+  width: 80px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  border: 3px solid #babdbe;
+}
+
+.idFind-submit {
+  padding: 50px 0;
+  text-decoration: none;
+}
+
+.idFind-submit a {
+  border: none;
+  margin: 0px 0 10px 0;
+  width: 100px;
+  text-decoration: none;
+}
+
+.id-Find {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px 40px 5px 40px;
+  background-color: aquamarine;
+}
+
+.id-Find:hover {
+  cursor: pointer;
+  background-color: #babdbe;
+  color: white;
+  transition: 0.3s;
+}
+
+.login-back {
+  font-size: 14px;
+  padding: 5px 20px 5px 20px;
+  background-color: #c0cfff;
+}
+
+.login-back:hover {
+  cursor: pointer;
+  background-color: #5870cb;
+  color: white;
+  transition: 0.3s;
+}

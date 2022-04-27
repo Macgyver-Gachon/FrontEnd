@@ -1,0 +1,222 @@
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+@import url(https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Nanum+Gothic&family=Yeon+Sung&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*---------------------------------------------
+  Header
+----------------------------------------------*/
+
+#header {
+  box-shadow: 1px solid black;
+  padding: 1rem 9%;
+  display: flex;
+  z-index: 1000;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid #212121;
+}
+
+#header .logo {
+  display: inline-block;
+  font-size: 36px;
+  color: #212121;
+  font-weight: 800;
+  font-family: "NanumSquare", san-serif;
+  text-decoration: none;
+}
+
+#header .logo:hover {
+  opacity: 80%;
+}
+
+#navbar a {
+  list-style: none;
+  display: inline-block;
+  cursor: pointer;
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+  font-family: "NanumSquare", san-serif;
+  font-weight: 700;
+}
+
+#navbar a:hover {
+  color: #90cc00;
+  transition: 0.2s;
+  text-decoration: underline;
+}
+
+/*---------------------------------------------
+  Main
+----------------------------------------------*/
+
+.catagory {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.main-box {
+  background-image: url(image/campfie.jpg);
+  background-size: 210vh 130vh;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.main-text {
+  justify-content: right;
+  display: flex;
+  flex-direction: column;
+  padding-right: 200px;
+}
+
+.main-text i {
+  color: white;
+  display: block;
+}
+
+.catagory {
+  font-size: 48px;
+  padding-right: 15px;
+  margin-bottom: 70px;
+}
+.catagory a {
+  padding: 15px 18px;
+  text-decoration: none;
+  color: white;
+}
+
+.catagory span a:visited {
+  color: white;
+}
+
+.catagory a:nth-child(1) {
+  color: yellow;
+}
+
+.catagory a i:nth-child(2) {
+  color: green;
+}
+
+.catagory a:hover {
+  opacity: 60%;
+}
+
+.content {
+  text-align: right;
+}
+
+.content span {
+  color: white;
+  display: block;
+  text-decoration: none;
+}
+
+.content span:nth-child(1) {
+  font-size: 58px;
+  font-family: "Do Hyeon", sans-serif;
+}
+
+.content span:nth-child(2) {
+  font-size: 58px;
+  font-family: "Do Hyeon", sans-serif;
+}
+.content span:nth-child(3) {
+  margin-top: 15px;
+  font-size: 66px;
+  font-family: "Do Hyeon", sans-serif;
+  opacity: 20%;
+}
+
+.content span:nth-child(3):after {
+  display: block;
+  content: "";
+  border-bottom: solid 4px #90cc00;
+  transform: scaleX(0);
+  transition: transform 700ms ease-in-out;
+}
+
+.content span:nth-child(3):hover {
+  opacity: 100%;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+.content span:nth-child(3):hover:after {
+  transform: scaleX(1);
+  transform-origin: 0% 50%;
+}
+
+.main-catagory {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 40vw;
+  text-align: center;
+  margin-top: 30px;
+  background-color: #90cc00;
+}
+
+.main-catagory .main-block {
+  border: solid 1px black;
+}
+
+/*---------------------------------------------
+  Recommend
+----------------------------------------------*/
+
+#recommend {
+  height: 60vh;
+  text-align: center;
+  background-color: aquamarine;
+}
+
+.recommend-title {
+  font-size: 30px;
+  font-weight: 800;
+  padding-top: 20px;
+  font-family: "NanumSquare", san-serif;
+}
+
+.recommend-icon {
+  border-radius: 15px;
+  background-color: blue;
+  text-align: center;
+  font-size: 16px;
+  width: 20vh;
+}
+
+/*---------------------------------------------
+  Community
+----------------------------------------------*/
+
+#community {
+  background-color: rgb(106, 255, 0);
+  height: 60vh;
+}
+
+/*---------------------------------------------
+  Map
+----------------------------------------------*/
+
+#map {
+  height: 60vh;
+}
+
+/*---------------------------------------------
+  Footer
+----------------------------------------------*/
+
+#footer {
+  background-color: rgb(61, 59, 59);
+  height: 40vh;
+}

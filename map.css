@@ -1,0 +1,29 @@
+#map {
+  display: inline-block;
+}
+
+.map-check {
+  margin-left: 5px;
+  width: 28%;
+  float: left;
+  height: 50vh;
+  padding: 50px 50px 20px 100px;
+  background-color: rgb(221, 243, 243);
+}
+.map-check div {
+  margin: 30px 0;
+}
+
+.map label {
+  margin: 10px 10px;
+  font-size: 24px;
+}
+
+.map-img {
+  float: right;
+  width: 60%;
+}
+
+.map-img img {
+  width: 100%;
+}
