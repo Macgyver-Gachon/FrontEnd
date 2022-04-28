@@ -9,7 +9,7 @@
   align-items: center;
   border: none;
   padding: 60px;
-  width: 650px;
+  width: 550px;
   height: 100%;
   text-align: center;
 }
@@ -52,6 +52,7 @@
 
 .idFind-text span {
   font-weight: bold;
+  margin-left: 30px;
 }
 
 .name0 {
@@ -62,8 +63,12 @@
   margin-right: 65px;
 }
 
-.locate {
-  margin-right: 98px;
+.alert {
+  margin-right: 65px;
+}
+
+.signUp-submit {
+  padding-top: 50px;
 }
 
 .signUp-submit a {

@@ -1,0 +1,118 @@
+#posting-block {
+  margin: 50px auto 0 auto;
+  align-items: center;
+  border: none;
+  padding: 20px;
+  width: 800px;
+  height: 100%;
+  text-align: center;
+  font-size: 32px;
+  border-bottom: 1px solid #000;
+}
+
+#posting-block a {
+  margin-left: 5px;
+  font-weight: 700;
+}
+
+.posting-img {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.posting-img img {
+  height: auto;
+  max-width: 90%;
+  max-height: 500px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.posting-content {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.posting-comment {
+  text-align: center;
+  padding: 30px 0;
+}
+.posting-comment a {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.posting-comment input {
+  width: 500px;
+  height: 40px;
+}
+
+.like_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-container {
+  margin-left: 20px;
+}
+.button-container button:hover {
+  cursor: pointer;
+}
+
+.like {
+  background-color: #fff;
+  border: 2px solid #2f9fe9;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #2199e8;
+}
+.like:hover {
+  border: 2px solid #bcbcbc;
+  transition: 0.5s;
+}
+
+.dislike {
+  background-color: #fff;
+  border: 2px solid #ef4d4d;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #ed4545;
+}
+.dislike:hover {
+  border: 2px solid #bcbcbc;
+  transition: 0.5s;
+}
+
+.comment-write {
+  display: inline-block;
+  padding: 20px 0;
+  width: 57%;
+  text-align: center;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.comment-write div {
+  text-align: center;
+  display: inline-block;
+}
+
+.posting-comment .comment-content {
+  width: 50%;
+}
+
+.posting-comment .comment-id {
+  width: 20%;
+}
+
+.comment-id span {
+  color: rgb(120, 118, 118);
+  cursor: pointer;
+}
+
+.posting-comment .comment-day {
+  width: 25%;
+}
+
+.comment-day span {
+  color: rgb(120, 118, 118);
+}

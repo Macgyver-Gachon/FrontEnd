@@ -3,25 +3,41 @@
 }
 
 .map-check {
-  margin-left: 5px;
-  width: 28%;
+  margin-left: 50px;
+  margin-top: 13px;
+  width: 20%;
   float: left;
   height: 50vh;
-  padding: 50px 50px 20px 100px;
+  padding: 50px 50px 50px 50px;
   background-color: rgb(221, 243, 243);
 }
-.map-check div {
-  margin: 30px 0;
+
+.map-check p {
+  font-weight: bold;
 }
 
-.map label {
-  margin: 10px 10px;
-  font-size: 24px;
+.map-check input {
+  width: 100%;
+  max-width: 300px;
+  height: 30px;
+  border-radius: 2px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding-left: 10px;
+  border: 2px solid rgb(127, 238, 97);
+}
+
+.map-check select {
+  width: 50%;
+  max-width: 100px;
+  height: 30px;
+  margin-top: 10px;
+  border: 2px solid rgb(35, 102, 236);
 }
 
 .map-img {
   float: right;
-  width: 60%;
+  width: 65%;
 }
 
 .map-img img {

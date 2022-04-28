@@ -39,21 +39,20 @@
       </div>
       <div class="idFind-text">
         <a class="sex">성별</a>
+        <span style="margin-left: 60px">남자</span>
         <input
           type="checkbox"
           name="sex"
           value="man"
           onclick="checkOnlyOne(this)"
         />
-        <span>남자</span>
-
+        <span>여자</span>
         <input
           type="checkbox"
           name="sex"
           value="woman"
           onclick="checkOnlyOne(this)"
         />
-        <span>여자</span>
       </div>
       <div class="idFind-text">
         <a class="name0">이름</a>
@@ -67,9 +66,23 @@
           <input type="password" class="pwd-block" />
         </div>
       </div>
+
       <div class="idFind-text">
-        <a class="locate">주소</a>
-        <input type="text" class="locate-block" />
+        <a class="alert">알림수신</a>
+        <span>수신하기</span>
+        <input
+          type="checkbox"
+          name="alert"
+          value="man"
+          onclick="checkOnlyOne(this)"
+        />
+        <span>수신안함</span>
+        <input
+          type="checkbox"
+          name="alert"
+          value="woman"
+          onclick="checkOnlyOne(this)"
+        />
       </div>
       <div class="signUp-submit">
         <a href="welcome.html" class="signUp-Find">회원가입 완료</a>
@@ -81,6 +94,16 @@
       // 성별 중복 선택 방지
       function checkOnlyOne(element) {
         const checkboxes = document.getElementsByName("sex");
+
+        checkboxes.forEach((cb) => {
+          cb.checked = false;
+        });
+
+        element.checked = true;
+      }
+
+      function checkOnlyOne(element) {
+        const checkboxes = document.getElementsByName("alert");
 
         checkboxes.forEach((cb) => {
           cb.checked = false;
