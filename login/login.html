@@ -4,18 +4,18 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MacGyber_ex</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../style.css" />
     <link rel="stylesheet" href="login.css" />
   </head>
   <body>
     <!-- Header -->
     <section id="header">
-      <a href="index.html" class="logo">MacGyber</a>
+      <a href="../index.html" class="logo">MacGyber</a>
       <div>
         <nav id="navbar">
           <a href="#">캠핑장추천</a>
-          <a href="#">지도</a>
-          <a href="#">커뮤니티</a>
+          <a href="../map.html">지도</a>
+          <a href="../community/community.html">커뮤니티</a>
           <a href="login.html">마이페이지</a>
         </nav>
       </div>
@@ -27,9 +27,10 @@
         <input type="text" class="login-block" placeholder="아이디" />
         <input type="password" class="login-block" placeholder="비밀번호" />
         <input type="submit" class="login-click" value="로그인" />
-        <input type="submit" class="sign-up" value="회원가입" />
+        <div class="sign-up">
+          <a href="signUp.html" class="login-back">회원가입</a>
+        </div>
       </form>
-
       <div class="link">
         <a href="loginShit.html">로그인이 안되시나요?</a>
       </div>

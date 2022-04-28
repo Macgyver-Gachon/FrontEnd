@@ -1,9 +1,9 @@
 #idFind-block {
-  margin: 50px auto 0 auto;
+  margin: 20px auto 0 auto;
   align-items: center;
   border: none;
   padding: 60px;
-  width: 600px;
+  width: 550px;
   height: 100%;
   text-align: center;
 }
@@ -36,7 +36,7 @@
 
 .name-block {
   padding: 5px;
-  width: 170px;
+  width: 255px;
   border: 3px solid #babdbe;
   display: inline-block;
 }

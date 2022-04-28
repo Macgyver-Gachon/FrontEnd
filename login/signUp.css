@@ -1,0 +1,89 @@
+.signUp-title {
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 70px;
+}
+
+#idFind-block {
+  margin: 20px auto 0 auto;
+  align-items: center;
+  border: none;
+  padding: 60px;
+  width: 650px;
+  height: 100%;
+  text-align: center;
+}
+
+.signUp-block {
+  display: inline;
+  font-size: 15px;
+  padding: 5px;
+  width: 250px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  border: 3px solid #babdbe;
+}
+
+.locate-block {
+  display: inline;
+  font-size: 15px;
+  padding: 5px;
+  width: 380px;
+  margin-bottom: 100px;
+  margin-top: 5px;
+  border: 3px solid #babdbe;
+}
+
+.id {
+  margin-right: 80px;
+}
+
+.pwd0 {
+  margin-right: 65px;
+}
+
+.pwd1 {
+  margin-right: 28px;
+}
+
+.sex {
+  margin-right: 100px;
+}
+
+.idFind-text span {
+  font-weight: bold;
+}
+
+.name0 {
+  margin-right: 97px;
+}
+
+.ph {
+  margin-right: 65px;
+}
+
+.locate {
+  margin-right: 98px;
+}
+
+.signUp-submit a {
+  border: none;
+  width: 70px;
+  text-decoration: none;
+}
+
+.signUp-Find {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px 20px 5px 20px;
+  margin-top: 30px;
+  margin-right: 10px;
+  background-color: aquamarine;
+}
+
+.signUp-Find:hover {
+  cursor: pointer;
+  background-color: #babdbe;
+  color: white;
+  transition: 0.3s;
+}

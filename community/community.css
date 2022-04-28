@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+
+#community-catagory-block {
+  justify-content: space-between;
+  display: inline;
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: 900;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+#community-catagory-block a {
+  text-decoration-line: none;
+}
+
+#community-catagory-block li {
+  margin: 10px 20px 10px 20px;
+  padding: 7px 5px;
+  border-radius: 10px;
+  width: 60px;
+  text-align: center;
+}
+
+#community-catagory-block li:hover {
+  background-color: #78909c;
+  color: #000;
+  transition: 0.3s;
+}
+
+.left-block {
+  width: 50%;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.left-block li {
+  float: left;
+  text-decoration-line: none;
+}
+
+.left-block li:nth-child(1) {
+  background-color: #ff5983;
+}
+.left-block li:nth-child(2) {
+  background-color: #b2ff59;
+}
+.left-block li:nth-child(3) {
+  background-color: #00e5ff;
+}
+.left-block li:nth-child(4) {
+  background-color: #ff9e80;
+}
+
+.right-block {
+  width: 50%;
+  float: right;
+  margin-right: 100px;
+}
+
+.right-block li {
+  float: right;
+}
+
+.right-block li:nth-child(1) {
+  background-color: #bdbdbd;
+}
+.right-block li:nth-child(2) {
+  background-color: #bdbdbd;
+}
+
+.right-block li:nth-child(3) {
+  background-color: #000;
+}
+
+#posting {
+  width: 100%;
+  border-top: 1px solid #000;
+  display: inline-block;
+}
+
+.posting-block {
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.posting-block .posting-content {
+  display: inline-block;
+  justify-content: space-between;
+  width: 49vh;
+  height: 50vh;
+  margin: 40px 50px 20px 70px;
+  border-radius: 10px;
+  background-color: #eeeeee;
+  text-align: center;
+  overflow: hidden;
+}
+
+.posting-content:hover {
+  cursor: pointer;
+  box-shadow: 0 15px 20px rgba(92, 89, 89, 0.2), 0 5px 4px rgba(92, 79, 79, 0.2);
+}
+
+.posting-title {
+  font-size: 18px;
+  margin-bottom: 20px 0;
+  padding: 15px 0;
+}
+
+/* 포스팅 제목 */
+.posting-title a {
+  text-decoration-line: none;
+  font-weight: bold;
+}
+
+.tag {
+  margin-bottom: 10px;
+  margin-left: 20px;
+  text-align: left;
+  opacity: 0.5;
+}
+
+.tag a {
+  cursor: pointer;
+}
+
+#posting .posting-img img {
+  height: auto;
+  max-width: 90%;
+  max-height: 270px;
+  border-radius: 5px;
+}
+
+.posting-page {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.posting-page li {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.posting-page li a {
+  text-decoration-line: none;
+  font-size: 17px;
+  padding: 5px 5px;
+}
