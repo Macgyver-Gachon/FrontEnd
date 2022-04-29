@@ -34,7 +34,7 @@
 .login-click {
   font-size: 15px;
   padding: 5px 20px 5px 20px;
-  margin: 20px 0 20px 0;
+  margin: 20px 0 20px 10px;
   border: none;
   width: 260px;
   color: #fff;
@@ -45,6 +45,10 @@
   background-color: #babdbe;
   cursor: pointer;
   transition: 0.3s;
+}
+
+.login-click a {
+  color: #fff;
 }
 
 .login-back {

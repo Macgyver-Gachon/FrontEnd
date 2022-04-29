@@ -1,0 +1,127 @@
+#myPage-title {
+  margin: 20px auto 0 auto;
+  align-items: center;
+  border: none;
+  padding: 60px;
+  width: 100%;
+  max-width: 170vh;
+  height: 100%;
+  text-align: left;
+  font-size: 28px;
+}
+
+#myPage-title a span {
+  font-weight: 900;
+  font-size: 32px;
+}
+
+.recommend {
+  margin: 20px auto 0 auto;
+  width: 100%;
+  height: 100%;
+  max-width: 170vh;
+}
+
+.recommend-block {
+  width: 30%;
+  display: inline-block;
+  margin: 0 20px 50px 0;
+}
+
+.recommend-img img {
+  height: auto;
+  width: 100%;
+  max-height: 200px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.rating {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.rating:hover {
+  cursor: pointer;
+}
+
+.rating i {
+  color: #f8fb29;
+  font-size: 24px;
+}
+
+.recommend-content {
+  width: 100%;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.recommend-content div {
+  display: block;
+  margin: 40px 0;
+}
+
+.recommend-content-title a {
+  font-size: 24px;
+  font-weight: 900;
+  padding: 20px 0;
+}
+
+.recommend-content-title i {
+  font-size: 32px;
+  float: right;
+  margin-right: 20px;
+  color: rgb(245, 62, 62);
+}
+
+.recommend-content-title i:hover {
+  cursor: pointer;
+  color: #bcbcbc;
+  transition: 0.2s;
+}
+
+.recommend-content-content a {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.recommend-content-button a {
+  background-color: rgb(39, 198, 39);
+  border-radius: 5px;
+  max-width: 70px;
+  padding: 5px 10px;
+}
+
+.recommend-content-button a:hover {
+  background-color: rgb(163, 247, 247);
+  color: black;
+  transition: 0.5s;
+}
+
+#myComment {
+  margin: 20px 0 100px 0;
+  display: inline-block;
+  margin-left: 110px;
+  padding: 10px 0;
+  width: 85%;
+  border-bottom: 1px solid #000f;
+}
+
+#myComment div {
+  display: inline-block;
+  text-align: center;
+  font-weight: 700;
+}
+
+.delComment {
+  background-color: rgb(248, 115, 115);
+  color: #000;
+  border-radius: 5px;
+  padding: 5px 5px;
+}
+
+.delComment:hover {
+  cursor: pointer;
+  background-color: #bcbcbc;
+  transition: 0.3;
+}

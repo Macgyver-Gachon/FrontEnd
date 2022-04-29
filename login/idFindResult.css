@@ -1,0 +1,30 @@
+.idFindResult {
+  width: 100%;
+  max-width: 150vh;
+  height: auto;
+  text-align: center;
+}
+
+.idFindResult div {
+  display: inline-block;
+}
+
+.idFindResult li {
+  font-weight: 900;
+}
+
+.idFindResult div:nth-child(1) {
+  width: 45%;
+}
+
+.idFindResult div:nth-child(2) {
+  width: 45%;
+}
+
+.idFind-submit {
+  padding-top: 100px;
+}
+
+.idFind-submit a {
+  border-radius: 5px;
+}
