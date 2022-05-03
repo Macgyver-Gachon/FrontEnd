@@ -1,0 +1,192 @@
+.manager-title {
+  margin: 60px 80px 0 80px;
+  padding-left: 60px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000;
+}
+
+.manager-title a {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.manager-title a span {
+  font-size: 24px;
+  margin-left: 50px;
+  color: rgb(230, 94, 94);
+}
+
+#manager-classify {
+  margin-top: 60px;
+  display: inline-block;
+  margin-left: 100px;
+  padding: 10px 0;
+  width: 87%;
+  border-bottom: 2px solid #000f;
+}
+
+#manager-classify div {
+  display: inline-block;
+  text-align: center;
+  font-weight: 700;
+}
+
+#manager-catagory {
+  margin-top: 60px;
+  display: inline-block;
+  margin-left: 100px;
+  padding: 10px 0;
+  width: 87%;
+  border-bottom: 2px solid #000f;
+}
+
+#manager-catagory div {
+  display: inline-block;
+  text-align: center;
+  font-weight: 700;
+}
+
+/* 관리자 모드 카테고리*/
+
+#manager-catagory a {
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border-radius: 10px 10px 0 0;
+  text-decoration: none;
+  font-weight: 700;
+  border: 2px solid;
+}
+
+.member-manage {
+  max-width: 33%;
+  width: 100%;
+}
+
+.posting-manage {
+  max-width: 33%;
+  width: 100%;
+}
+
+.announce-write {
+  max-width: 33%;
+  width: 100%;
+}
+
+.member-manage a {
+  background-color: black;
+  color: #fff;
+}
+
+.member-manage a:hover {
+  background-color: #fff;
+  color: black;
+  transition: 0.3s;
+}
+
+.posting-manage a:hover {
+  background-color: rgb(153, 148, 148);
+  color: #fff;
+  transition: 0.3s;
+}
+
+.announce-write a:hover {
+  background-color: rgb(153, 148, 148);
+  color: #fff;
+  transition: 0.3s;
+}
+
+/* 관리자 모드 회원관리 분류 */
+
+#manager-classify a {
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border-radius: 10px 10px 0 0;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.manager-id {
+  max-width: 33%;
+  width: 100%;
+}
+
+.manager-day {
+  max-width: 33%;
+  width: 100%;
+}
+
+.manager-modify {
+  max-width: 33%;
+  width: 100%;
+}
+
+/* 관리자 모드 회원관리 내용 */
+
+.member-manage-post {
+  margin-top: 20px;
+  display: inline-block;
+  margin-left: 110px;
+  padding: 10px 0;
+  width: 85%;
+  border-bottom: 1px solid #000f;
+}
+
+.member-manage-post div {
+  display: inline-block;
+  text-align: center;
+  font-weight: 700;
+}
+
+.post-id {
+  width: 33%;
+  font-size: 14px;
+}
+
+.post-id a {
+  color: rgb(120, 118, 118);
+}
+
+.post-day {
+  width: 33%;
+  font-size: 14px;
+}
+
+.post-modify {
+  width: 33%;
+  font-size: 14px;
+}
+
+.post-modify a {
+  background-color: rgb(244, 140, 140);
+  color: #fff;
+  padding: 5px 20px;
+  margin-left: 30px;
+  border-radius: 5px;
+}
+
+.post-modify a:hover {
+  background-color: #fff;
+  color: rgb(77, 76, 76);
+  border: 1px solid;
+  transition: 0.4s;
+}
+
+.posting-page {
+  margin: 100px 0;
+  text-align: center;
+}
+
+.posting-page li {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.posting-page li a {
+  text-decoration-line: none;
+  font-size: 17px;
+  padding: 5px 5px;
+}
+
+.posting-page li a:hover {
+  color: blue;
+}

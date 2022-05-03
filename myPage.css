@@ -46,7 +46,7 @@
 }
 
 .rating i {
-  color: #f8fb29;
+  color: #edf034;
   font-size: 24px;
 }
 
@@ -71,13 +71,10 @@
   font-size: 32px;
   float: right;
   margin-right: 20px;
-  color: rgb(245, 62, 62);
 }
 
 .recommend-content-title i:hover {
   cursor: pointer;
-  color: #bcbcbc;
-  transition: 0.2s;
 }
 
 .recommend-content-content a {
@@ -124,4 +121,53 @@
   cursor: pointer;
   background-color: #bcbcbc;
   transition: 0.3;
+}
+
+.login-setting {
+  text-align: center;
+}
+
+.login-setting-block {
+  padding: 50px 0;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+}
+
+.login-setting-block a {
+  border: none;
+  margin: 0px 50px 10px 0;
+  width: 100%;
+  max-width: 50px;
+  text-decoration: none;
+}
+
+.login-modify {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px 20px 5px 20px;
+  background-color: rgb(98, 246, 209);
+  border-radius: 5px;
+}
+
+.login-modify:hover {
+  cursor: pointer;
+  background-color: #babdbe;
+  color: white;
+  transition: 0.3s;
+}
+
+.widrawal-block {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px 40px 5px 40px;
+  background-color: rgb(246, 98, 98);
+  border-radius: 5px;
+}
+
+.widrawal-block:hover {
+  cursor: pointer;
+  background-color: #babdbe;
+  color: white;
+  transition: 0.3s;
 }

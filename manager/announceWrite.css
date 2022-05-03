@@ -1,0 +1,83 @@
+.member-manage a {
+  background-color: #fff;
+  color: #000;
+}
+
+.posting-manage a {
+  background-color: #fff;
+  color: #000;
+}
+
+.announce-write a {
+  background-color: #000;
+  color: #fff;
+}
+
+.announce-write a:hover {
+  background-color: rgb(153, 148, 148);
+  color: #fff;
+  transition: 0.3s;
+}
+
+#announceWrite {
+  margin: 20px auto 0 auto;
+  align-items: center;
+  border: none;
+  padding: 60px;
+  width: 800px;
+  height: 100%;
+  text-align: center;
+}
+
+.annWrite-title {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.annWrite-file {
+  font-size: 11px;
+}
+
+.annWrite-title input {
+  width: 300px;
+  height: 20px;
+}
+
+.annWrite-file input {
+  width: 300px;
+  height: 20px;
+}
+
+.annWrite-write {
+  margin: 40px 0;
+}
+
+.annWrite-write input {
+  width: 800px;
+  height: 700px;
+  border-radius: 5px;
+}
+
+#announceWrite-submit {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#announceWrite-submit a {
+  background-color: aquamarine;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+#announceWrite-submit a:hover {
+  background-color: azure;
+  color: #000;
+  transition: 0.4s;
+}
+
+#announceWrite-submit a:nth-child(2) {
+  background-color: rgb(237, 150, 245);
+  padding: 10px 17px;
+  border-radius: 5px;
+  margin-left: 20px;
+}

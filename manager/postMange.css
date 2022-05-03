@@ -1,0 +1,93 @@
+.member-manage a {
+  background-color: #fff;
+  color: #000;
+}
+
+.member-manage a:hover {
+  background-color: rgb(153, 148, 148);
+  color: #fff;
+  transition: 0.3s;
+}
+
+.posting-manage a {
+  background-color: #000;
+  color: #fff;
+}
+
+announce-write a {
+  background-color: #fff;
+  color: #000;
+}
+
+.manager-posting-title {
+  max-width: 45%;
+  width: 100%;
+}
+
+.manager-posting-id {
+  max-width: 15%;
+  width: 100%;
+}
+
+.manager-posting-day {
+  max-width: 15%;
+  width: 100%;
+}
+.manager-posting-modify {
+  max-width: 20%;
+  width: 100%;
+}
+
+.manager-posting {
+  margin-top: 20px;
+  display: inline-block;
+  margin-left: 110px;
+  padding: 10px 0;
+  width: 85%;
+  border-bottom: 1px solid #000f;
+}
+
+.manager-posting div {
+  display: inline-block;
+  text-align: center;
+  font-weight: 700;
+}
+
+.posting-title {
+  max-width: 45%;
+  width: 100%;
+}
+
+.posting-title a {
+  color: rgb(120, 118, 118);
+}
+
+.posting-id {
+  max-width: 15%;
+  width: 100%;
+}
+
+.posting-day {
+  max-width: 15%;
+  width: 100%;
+}
+.posting-modify {
+  max-width: 20%;
+  width: 100%;
+}
+
+.posting-modify a {
+  cursor: pointer;
+  background-color: rgb(244, 140, 140);
+  color: #fff;
+  padding: 5px 20px;
+  margin-left: 30px;
+  border-radius: 5px;
+}
+
+.posting-modify a:hover {
+  background-color: #fff;
+  color: rgb(77, 76, 76);
+  border: 1px solid;
+  transition: 0.4s;
+}
